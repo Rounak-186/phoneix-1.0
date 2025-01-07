@@ -1,0 +1,80 @@
+/***** container css *****/
+.ph-box-container {
+    background-color: var(--ph-d-dark);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+/***** End container css *****/
+
+/***** Navbar css *****/
+
+.ph-navbar {
+    display: grid;
+    background-color: var(--ph-l-dark);
+    padding: 0.5em;
+    border-radius: 15px;
+    grid-auto-flow: column;
+    align-items: center;
+    width: 100%;
+    grid-template-columns: 1fr auto;
+    gap: 1em;
+}
+
+.ph-title-box {
+    background: transparent;
+    color: var(--ph-col-neon);
+    /* border: 2px solid rgb(0, 247, 255); */
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+.ph-nav-options {
+    justify-self: flex-end;
+    display: flex;
+    gap: 20px;
+}
+
+/***** End Navbar css *****/
+
+.ph-chat-input-container {
+    display: grid;
+    /* grid-auto-flow: column; */
+    grid-template-columns: 1fr auto;
+    gap: 20px;
+    align-items: end;
+    background-color: var(--ph-l-dark);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.ph-input-box {
+    display: flex;
+    align-items: end;
+}
+
+.ph-main-container {
+    text-align: center;
+    background-color: var(--ph-l-dark);
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    height: 100%;
+}
+
+.ph-send-btn {
+    background-color: var(--ph-d-dark);
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+
+    & svg {
+        width: 30px;
+        height: 30px;
+    }
+}

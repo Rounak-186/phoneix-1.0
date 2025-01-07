@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.ph-btn {
+    background: transparent;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 2.5em;
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.ph-btn:hover{
+    background-color: rgba(104, 103, 103, 0.185);
+}
+
+.ph-btn:active{
+    background-color: rgba(26, 26, 26, 0.185);
+}
+
+textarea {
+    background-color: transparent;
+    border: 2px solid rgb(224, 224, 224);
+    border-radius: 15px;
+    padding: 0.7em;
+    color: white;
+    width: 100%;
+    resize: none;
+}
+textarea:focus{
+    outline: none;
+    border: 2px solid var(--ph-col-neon);
+}
+
+svg {
+    background: transparent;
+    color:var(--ph-col-neon);
+}
+
+h3 {
+    margin: 0;
+}
