@@ -1,5 +1,5 @@
 :root{
-    --ph-d-dark: rgb(36, 35, 35);
-    --ph-l-dark: rgb(53, 52, 52);
-    --ph-col-neon:rgb(132, 0, 255);
+    --ph-d-dark: #242323;
+    --ph-l-dark: #353434;
+    --ph-col-neon:#8400ff;
 }
