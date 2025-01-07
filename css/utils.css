@@ -4,6 +4,11 @@
     margin: 0;
 }
 
+body{
+    background-color: var(--ph-d-dark);
+    color: #f1f1f1;
+}
+
 .ph-btn {
     background: transparent;
     outline: none;
@@ -16,6 +21,7 @@
     justify-content: center;
     transition: 0.2s;
     cursor: pointer;
+    color: inherit;
 }
 
 .ph-btn:hover{
@@ -27,9 +33,9 @@
 }
 
 textarea {
-    background-color: transparent;
-    border: 2px solid rgb(224, 224, 224);
+    background-color: var(--ph-l-dark);
     border-radius: 15px;
+    border: none;
     padding: 0.7em;
     color: white;
     width: 100%;
@@ -37,12 +43,10 @@ textarea {
 }
 textarea:focus{
     outline: none;
-    border: 2px solid var(--ph-col-neon);
 }
 
 svg {
     background: transparent;
-    color:var(--ph-col-neon);
 }
 
 h3 {
